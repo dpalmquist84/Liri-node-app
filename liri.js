@@ -9,7 +9,7 @@ let searchParam = process.argv[2];
 let varParam = process.argv[3];
 
 if (searchParam === "my-tweets") {
-	
+
 	
 
 	const twitter = new Twitter ({
@@ -25,11 +25,19 @@ if (searchParam === "my-tweets") {
    for(i = 0; i < 15; i++) {
   
    console.log(`Tweet # ${i} Tweet: ${tweets.statuses[i].text} Time" ${tweets.statuses[i].created_at}`);
-   debugger;
-  
-  
-}
+     fs.appendFile('log.txt', `Tweet # ${i} Tweet: ${tweets.statuses[i].text} Time" ${tweets.statuses[i].created_at}
+      `, function (err) {
+  if (err) throw err;
+ 
 });
+ 
+  							}
+  	console.log(`Logged ${searchParam}`);
+
+
+		});
+
+
 
 
 
@@ -61,6 +69,16 @@ if (searchParam === "my-tweets") {
 		console.log(`Link to the song ${results.preview_url}`);
 		console.log(`Album: ${results.album.name}`);
 
+		 
+     		fs.appendFile('log.txt',`Artist: ${results.artists[0].name}`
+						     		 `Song: ${results.name}`
+						     		 `Link to the song ${results.preview_url}`
+						     		 `Album: ${results.album.name}`, function (err) {
+ 			 if (err) throw err;
+ 			 console.log(`Logged ${searchParam}`);
+			});
+
+
 
 
 
@@ -88,6 +106,11 @@ if (searchParam === "my-tweets") {
 	  // console.log(bodySplit[]);//language
 	  // console.log(bodySplit[]);//Plot
 	  // console.log(bodySplit[]);//Actors
+	  	fs.appendFile('log.txt',(bodySplit[0] + " " +
+	  							bodySplit[1]), function (err) {
+ 			 if (err) throw err;
+ 			 console.log(`Logged ${searchParam}`);
+			});
 	  
 	  
 
@@ -112,6 +135,11 @@ if (searchParam === "my-tweets") {
 	  // console.log(bodySplit[]);//Actors
 	  console.log(`if you haven't watched "Gremlins" then you should http:www.imdb.com/title/tt0485947/
 	  				it is currenlty on nextflix`)
+	  fs.appendFile('log.txt',(bodySplit[0] + " " +
+	  							bodySplit[1]), function (err) {
+ 			 if (err) throw err;
+ 			 console.log(`Logged ${searchParam}`);
+			});
 	});
 }
 
@@ -149,6 +177,14 @@ if (searchParam === "my-tweets") {
 		console.log(`Link to the song ${results.preview_url}`);
 		console.log(`Album: ${results.album.name}`);
 
+		fs.appendFile('log.txt',`Artist: ${results.artists[0].name}
+						     		Song: ${results.name}
+						     		 Link to the song ${results.preview_url}
+						     		 Album: ${results.album.name}`, function (err) {
+ 			 if (err) throw err;
+ 			 console.log(`Logged ${searchParam}`);
+			});
+
 
 
 });
@@ -161,3 +197,5 @@ if (searchParam === "my-tweets") {
 } else {
 	console.log(`invalid request ${searchParam}`)
 }
+
+
