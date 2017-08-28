@@ -25,8 +25,7 @@ if (searchParam === "my-tweets") {
    for(i = 0; i < 15; i++) {
   
    console.log(`Tweet # ${i} Tweet: ${tweets.statuses[i].text} Time" ${tweets.statuses[i].created_at}`);
-     fs.appendFile('log.txt', `Tweet # ${i} Tweet: ${tweets.statuses[i].text} Time" ${tweets.statuses[i].created_at}
-      `, function (err) {
+     fs.appendFile('log.txt', `Tweet # ${i} Tweet: ${tweets.statuses[i].text} Time" ${tweets.statuses[i].created_at}`, function (err) {
   if (err) throw err;
  
 });
@@ -38,14 +37,6 @@ if (searchParam === "my-tweets") {
 		});
 
 
-
-
-
-
-   
-
-
-	
 } else if (searchParam === "spotify-this-song") {
 
 
@@ -70,10 +61,10 @@ if (searchParam === "my-tweets") {
 		console.log(`Album: ${results.album.name}`);
 
 		 
-     		fs.appendFile('log.txt',`Artist: ${results.artists[0].name}`
-						     		 `Song: ${results.name}`
-						     		 `Link to the song ${results.preview_url}`
-						     		 `Album: ${results.album.name}`, function (err) {
+     		fs.appendFile('log.txt',`Artist: ${results.artists[0].name}
+						     		 Song: ${results.name}
+						     		 Link to the song ${results.preview_url}
+						     		 Album: ${results.album.name}`, function (err) {
  			 if (err) throw err;
  			 console.log(`Logged ${searchParam}`);
 			});
@@ -96,26 +87,31 @@ if (searchParam === "my-tweets") {
 	  console.log('error:', error); // Print the error if one occurred 
 	  console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
 	  
-	  let bodySplit = body.split(",") 
-	
-	  console.log(bodySplit[0]);//title
-	  console.log(bodySplit[1]);//year
-	  // console.log(bodySplit[]);//IMDB
-	  // console.log(bodySplit[]);//RT
-	  // console.log(bodySplit[]);//Country
-	  // console.log(bodySplit[]);//language
-	  // console.log(bodySplit[]);//Plot
-	  // console.log(bodySplit[]);//Actors
-	  	fs.appendFile('log.txt',(bodySplit[0] + " " +
-	  							bodySplit[1]), function (err) {
+	  title = (JSON.parse(body).Title);
+	  year = (JSON.parse(body).Year);
+	  ratings = (JSON.parse(body).Ratings);
+	  country = (JSON.parse(body).Country);
+	  language = (JSON.parse(body).Language);
+	  plot = (JSON.parse(body).Plot);
+	  actors = (JSON.parse(body).Actors)
+  
+	  
+	  console.log(JSON.parse(body).Title);//title
+	  console.log(JSON.parse(body).Year);//year
+	  console.log(JSON.parse(body).Ratings);//RT
+	  console.log(JSON.parse(body).Country);//Country
+	  console.log(JSON.parse(body).Language);//language
+	  console.log(JSON.parse(body).Plot);//Plot
+	  console.log(JSON.parse(body).Actors);//Actors
+	  console.log(`if you haven't watched "Gremlins" then you should http:www.imdb.com/title/tt0485947/
+	  				it is currenlty on nextflix`)
+	  fs.appendFile('log.txt',`Title; ${title} Year: ${year} Ratings: ${ratings} Country: ${country} Language: ${language} Plot: ${plot} Actors: ${actors}`
+	  	, function (err) {
  			 if (err) throw err;
  			 console.log(`Logged ${searchParam}`);
 			});
+	});
 	  
-	  
-
-	
-});
 	}
 	else {
 	  let varParam2 = "gremlins";
@@ -123,20 +119,28 @@ if (searchParam === "my-tweets") {
 	  console.log('error:', error); // Print the error if one occurred 
 	  console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received 
 	  
-	  let bodySplit = body.split(",") 
+	
+
+	  title = (JSON.parse(body).Title);
+	  year = (JSON.parse(body).Year);
+	  ratings = (JSON.parse(body).Ratings);
+	  country = (JSON.parse(body).Country);
+	  language = (JSON.parse(body).Language);
+	  plot = (JSON.parse(body).Plot);
+	  actors = (JSON.parse(body).Actors)
+  
 	  
-	  console.log(bodySplit[0]);//title
-	  console.log(bodySplit[1]);//year
-	  // console.log(bodySplit[]);//IMDB
-	  // console.log(bodySplit[]);//RT
-	  // console.log(bodySplit[]);//Country
-	  // console.log(bodySplit[]);//language
-	  // console.log(bodySplit[]);//Plot
-	  // console.log(bodySplit[]);//Actors
+	  console.log(JSON.parse(body).Title);//title
+	  console.log(JSON.parse(body).Year);//year
+	  console.log(JSON.parse(body).Ratings);//RT
+	  console.log(JSON.parse(body).Country);//Country
+	  console.log(JSON.parse(body).Language);//language
+	  console.log(JSON.parse(body).Plot);//Plot
+	  console.log(JSON.parse(body).Actors);//Actors
 	  console.log(`if you haven't watched "Gremlins" then you should http:www.imdb.com/title/tt0485947/
 	  				it is currenlty on nextflix`)
-	  fs.appendFile('log.txt',(bodySplit[0] + " " +
-	  							bodySplit[1]), function (err) {
+	  fs.appendFile('log.txt',`Title; ${title} Year: ${year} Ratings: ${ratings} Country: ${country} Language: ${language} Plot: ${plot} Actors: ${actors}`
+	  	, function (err) {
  			 if (err) throw err;
  			 console.log(`Logged ${searchParam}`);
 			});
@@ -149,7 +153,7 @@ if (searchParam === "my-tweets") {
 
 	fs.readFile("random.txt", "utf8", function(error, data){
 		if (error) {
-			return console.log(error);
+			return console.log(`${error} You must search for a song `);
 		}
 	let dataSplit = data.split(",");
 	

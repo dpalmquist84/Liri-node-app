@@ -17,4 +17,40 @@ Tweet # 0 Tweet: apparently the max length of the statuses array is 15? Time" Su
 	  							bodySplit[1]{"Title":"Die Hard" "Year":"1988"{"Title":"Gremlins" "Year":"1984"Artist: Van HalenArtist: Van HalenArtist: Iron Maiden
 						     		Song: The Number Of The Beast - 1998 Remastered Version
 						     		 Link to the song https://p.scdn.co/mp3-preview/a9965691b8b45842646408abaee45ba11e91d8d6?cid=ebc515e4fa854011a46e2ccbcf788058
-						     		 Album: The Number of the Beast (1998 Remastered Version)
+						     		 Album: The Number of the Beast (1998 Remastered Version){"Title":"Die Hard" "Year":"1988"{"Title":"Gremlins" "Year":"1984"Tweet # 0 Tweet: apparently the max length of the statuses array is 15? Time" Sun Aug 27 22:17:28 +0000 2017
+      Tweet # 1 Tweet: its stopping at 14 for some reason even though the loop is for &lt; 20 Time" Sun Aug 27 22:13:26 +0000 2017
+      Tweet # 3 Tweet: its close now Time" Sun Aug 27 22:11:55 +0000 2017
+      Tweet # 2 Tweet: ?only 14? Time" Sun Aug 27 22:12:38 +0000 2017
+      Tweet # 4 Tweet: almost there Time" Sun Aug 27 22:11:44 +0000 2017
+      Tweet # 5 Tweet: #ICannotSpell Time" Sun Aug 27 22:11:37 +0000 2017
+      Tweet # 6 Tweet: #SundayFunay Time" Sun Aug 27 22:11:25 +0000 2017
+      Tweet # 7 Tweet: 6 tweets to go Time" Sun Aug 27 22:11:10 +0000 2017
+      Tweet # 8 Tweet: and I can't grow a beard Time" Sun Aug 27 22:10:51 +0000 2017
+      Tweet # 9 Tweet: I do not care for cats however Time" Sun Aug 27 22:10:40 +0000 2017
+      Tweet # 10 Tweet: I love my dog Time" Sun Aug 27 22:10:30 +0000 2017
+      Tweet # 11 Tweet: I love my wife Time" Sun Aug 27 22:10:23 +0000 2017
+      Tweet # 12 Tweet: now 10 Time" Sun Aug 27 22:10:15 +0000 2017
+      Tweet # 13 Tweet: I think there is 11 to go Time" Sun Aug 27 22:10:07 +0000 2017
+      Tweet # 14 Tweet: I add an i variable into see how my tweets that i've done Time" Sun Aug 27 22:09:58 +0000 2017
+      Artist: Iron Maiden
+						     		Song: The Number Of The Beast - 1998 Remastered Version
+						     		 Link to the song https://p.scdn.co/mp3-preview/a9965691b8b45842646408abaee45ba11e91d8d6?cid=ebc515e4fa854011a46e2ccbcf788058
+						     		 Album: The Number of the Beast (1998 Remastered Version){"Title":"Gremlins" "Year":"1984"{"Title":"The Terminator" "Year":"1984"{"Title":"Terminator" "Year":"2001"{"Title":"Terminator" "Year":"2001"Tweet # 0 Tweet: apparently the max length of the statuses array is 15? Time" Sun Aug 27 22:17:28 +0000 2017
+      Tweet # 1 Tweet: its stopping at 14 for some reason even though the loop is for &lt; 20 Time" Sun Aug 27 22:13:26 +0000 2017
+      Tweet # 2 Tweet: ?only 14? Time" Sun Aug 27 22:12:38 +0000 2017
+      Tweet # 3 Tweet: its close now Time" Sun Aug 27 22:11:55 +0000 2017
+      Tweet # 4 Tweet: almost there Time" Sun Aug 27 22:11:44 +0000 2017
+      Tweet # 5 Tweet: #ICannotSpell Time" Sun Aug 27 22:11:37 +0000 2017
+      Tweet # 6 Tweet: #SundayFunay Time" Sun Aug 27 22:11:25 +0000 2017
+      Tweet # 7 Tweet: 6 tweets to go Time" Sun Aug 27 22:11:10 +0000 2017
+      Tweet # 8 Tweet: and I can't grow a beard Time" Sun Aug 27 22:10:51 +0000 2017
+      Tweet # 9 Tweet: I do not care for cats however Time" Sun Aug 27 22:10:40 +0000 2017
+      Tweet # 10 Tweet: I love my dog Time" Sun Aug 27 22:10:30 +0000 2017
+      Tweet # 11 Tweet: I love my wife Time" Sun Aug 27 22:10:23 +0000 2017
+      Tweet # 12 Tweet: now 10 Time" Sun Aug 27 22:10:15 +0000 2017
+      Tweet # 13 Tweet: I think there is 11 to go Time" Sun Aug 27 22:10:07 +0000 2017
+      Tweet # 14 Tweet: I add an i variable into see how my tweets that i've done Time" Sun Aug 27 22:09:58 +0000 2017
+      Artist: Iron Maiden
+						     		 Song: The Trooper - 1998 Remastered Version
+						     		 Link to the song https://p.scdn.co/mp3-preview/1174b7e3c789d88cd328e4717f292f88e2ba6248?cid=ebc515e4fa854011a46e2ccbcf788058
+						     		 Album: Piece of Mind (1998 Remastered Version){"Title":"Gremlins" "Year":"1984"Tweet # 0 Tweet: apparently the max length of the statuses array is 15? Time" Sun Aug 27 22:17:28 +0000 2017Tweet # 1 Tweet: its stopping at 14 for some reason even though the loop is for &lt; 20 Time" Sun Aug 27 22:13:26 +0000 2017Tweet # 2 Tweet: ?only 14? Time" Sun Aug 27 22:12:38 +0000 2017Tweet # 3 Tweet: its close now Time" Sun Aug 27 22:11:55 +0000 2017Tweet # 4 Tweet: almost there Time" Sun Aug 27 22:11:44 +0000 2017Tweet # 5 Tweet: #ICannotSpell Time" Sun Aug 27 22:11:37 +0000 2017Tweet # 6 Tweet: #SundayFunay Time" Sun Aug 27 22:11:25 +0000 2017Tweet # 7 Tweet: 6 tweets to go Time" Sun Aug 27 22:11:10 +0000 2017Tweet # 8 Tweet: and I can't grow a beard Time" Sun Aug 27 22:10:51 +0000 2017Tweet # 9 Tweet: I do not care for cats however Time" Sun Aug 27 22:10:40 +0000 2017Tweet # 10 Tweet: I love my dog Time" Sun Aug 27 22:10:30 +0000 2017Tweet # 11 Tweet: I love my wife Time" Sun Aug 27 22:10:23 +0000 2017Tweet # 12 Tweet: now 10 Time" Sun Aug 27 22:10:15 +0000 2017Tweet # 13 Tweet: I think there is 11 to go Time" Sun Aug 27 22:10:07 +0000 2017Tweet # 14 Tweet: I add an i variable into see how my tweets that i've done Time" Sun Aug 27 22:09:58 +0000 2017{"Title":"Die Hard" "Year":"1988"{"Title":"Gremlins" "Year":"1984"moviemoviemoviemoviemoviemoviemovieTitle; GremlinsTitle; Gremlins Year: 1984 Ratings: [object Object],[object Object],[object Object] Country: USA Language: English, Spanish Plot: A boy inadvertently breaks three important rules concerning his new pet and unleashes a horde of malevolently mischievous monsters on a small town. Actors: Hoyt Axton, John Louie, Keye Luke, Don SteeleTitle; The Terminator Year: 1984 Ratings: [object Object],[object Object],[object Object] Country: UK, USA Language: English, Spanish Plot: A seemingly indestructible humanoid cyborg is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs. Actors: Arnold Schwarzenegger, Michael Biehn, Linda Hamilton, Paul Winfield
